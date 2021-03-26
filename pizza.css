@@ -1,0 +1,98 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#header
+{
+	height: 100vh;
+	background-image: url(bg1.jpg);
+	background-size: cover;
+	text-transform: uppercase;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	font-family: arial;
+}
+
+header
+{
+	margin-top: 20px ;
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav
+{
+	display: flex;
+	justify-content: flex-end;
+	flex: 1 1 600px;
+	margin-right: 40px;
+	align-items: center;
+}
+
+header nav a
+{
+	padding: 10px 20px;
+   	text-decoration: none;
+   	color: white;
+   	
+}
+header .logo
+{
+	width: 150px;
+	height: 150px;
+	flex: 0 1 150px;
+
+}
+header .logo img
+{
+	height: inherit;
+	width: inherit;
+}
+
+
+.main
+{
+	 
+	display: flex;
+	flex-direction: column;
+	flex:1;
+	align-items: center;
+ 	justify-content: center;
+}
+.main h1 
+{
+	font-size: 4em;
+	color: white;
+	padding-bottom: 50px;
+}
+.main h3
+{
+	color: yellow;
+	padding-bottom:  30px;
+	font-weight: 400;
+}
+ .main p
+ {
+ 	color: white;
+ 	font-weight: 100;
+ }
+.button
+{
+	width: 250px;
+	padding: 20px 15px;
+	border-radius: 5px;
+	border: 2px solid yellow;
+	margin-top: 40px;
+	color: yellow;
+	text-decoration: none;
+}
+
+.button:hover
+{
+	background-color: red;
+	border-color: red;
+	transition: all 0.2s ease-in-out;
+	transform: rotate(5deg); 
+}
